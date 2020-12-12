@@ -1,0 +1,6 @@
+flake8==3.8.4
+mypy-extensions==0.4.3
+pep257==0.7.0
+pyflakes==2.2.0
+toml==0.10.2
+vulture==2.1
