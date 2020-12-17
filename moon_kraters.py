@@ -39,10 +39,7 @@ def file_reading(file: str) -> list:
     for line in f:
         m = line.replace('\n', "").split()
         j = 0
-        for i in m:
-            m[j] = int(i)
-            j += 1
-        d.append(m)
+        d.append([int(i) for i in m])
     f.close()
     return d
 
